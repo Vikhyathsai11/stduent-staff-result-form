@@ -1,0 +1,5 @@
+
+body {text-align: center;}
+        #enterDetails {float: center; width: 50%;  background-color: darkslategray; color: floralwhite;}
+        #findDetails {float: center; width: 50%; background-color: darkslategray; color: floralwhite;}
+        input {width: 120px;}

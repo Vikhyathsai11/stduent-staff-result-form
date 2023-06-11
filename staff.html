@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Login | VIKI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+</head>
+<body>
+    <h1>STAFF LOGIN PAGE</h1>
+    <div class="form">
+        <!-- Email  -->
+        <div class="email">
+          
+          <input type="email" name="email" id="email" placeholder="enter your email"/>
+        </div>
+        <!-- passWord -->
+        <div class="pass">
+  
+          <input type="password" name="password" id="password" placeholder="Enter password"/>
+        </div>
+  
+        
+        <!-- Sign In option -->
+
+        <button id="submit-btn" class ="button1" onclick="signInStaff()"> Sign In</button>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>

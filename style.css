@@ -1,0 +1,94 @@
+*{
+    background-color: #121212;
+}
+h1{
+    /* justify-content: center; */
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #2f2f2f;
+    background-color: blanchedalmond;
+    text-decoration: none;
+}
+.button:hover{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    color: #0c0224;
+    background-color: aqua;
+    transition: all 500ms ease;
+    padding: 10px;
+    opacity: 1;
+}
+.buttons{
+    text-align: center;
+    margin-top: 10%;
+}
+input{
+    width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: #111111;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.form{
+    text-align: center;
+}
+.button1{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* margin-top: 10%; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #2f2f2f;
+    background-color: blanchedalmond;
+    text-decoration: none;
+}
+.button1:hover{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    color: #0c0224;
+    background-color: aqua;
+    transition: all 500ms ease;
+    padding: 10px;
+    opacity: 1;
+}
+@media screen and (max-width: 500px) {
+    /* *{
+        background-color: #fff;
+    } */
+    h1{
+        margin-top: 30%;
+    }
+    .buttons{
+        margin-top: 30%;
+    }
+    input{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .button1{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    
+  }
