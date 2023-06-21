@@ -38,7 +38,7 @@
          var removeBtn = document.querySelector("#remove");
          var findBtn = document.querySelector("#find");
 
-         findBtn.addEventListener('click', FindData);
+         // findBtn.addEventListener('click', FindData);
 
          insertBtn.addEventListener('click', InsertData);
          updateBtn.addEventListener('click', UpdateData);
